@@ -1,0 +1,37 @@
+<div class="row justify-content-md-center">
+    <div class="card-wrapper col-12 col-md-4 mt-5">
+        <div class="brand text-center mb-3">
+            <a href="/"><img src=""></a>
+        </div>
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Login</h4>
+                <form>
+                    <div class="form-group">
+                        <label for="">Username</label>
+                        <input id="loguser" type="text" class="form-control" required="" autofocus="">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="">Password
+                        </label>
+                        <input id="logpass" type="password" class="form-control" required="">
+                        <!-- <div class="text-right">
+                            <a href="forgottenaccount" class="small">
+                                Forgot Your Password?
+                            </a>
+                        </div> -->
+                    </div>
+
+                    <span id="login"></span>
+                </form>
+                <div class="form-group no-margin">
+                    <button (click)="login()" class="btn btn-outline-primary btn-block">
+                        Login
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

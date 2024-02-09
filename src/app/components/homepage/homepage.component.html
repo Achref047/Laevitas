@@ -1,0 +1,29 @@
+<!-- Nav tabs -->
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    
+    <li class="nav-item" role="presentation">
+      <a class="nav-link active" id="login-tab" data-bs-toggle="tab" data-bs-target="#login"  role="tab" aria-controls="login" aria-selected="false">Login</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="signup-tab" data-bs-toggle="tab" data-bs-target="#signup"  role="tab" aria-controls="signup" aria-selected="true">SignUp</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="forgottenaccount-tab" data-bs-toggle="tab" data-bs-target="#forgottenaccount"  role="tab" aria-controls="forgetaccount" aria-selected="false">Forgotten Account</a>
+    </li>
+    <li class="nav-item" role="presentation">
+      <a class="nav-link" id="info-tab" data-bs-toggle="tab" data-bs-target="#info" href="" role="tab" aria-controls="info" aria-selected="false">Info</a>
+    </li>
+    <li class="nav-item "  role="presentation">
+      <a class="nav-link " id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" href="" role="tab" aria-controls="settings" aria-selected="false">Settings</a>
+    </li>
+  </ul>
+  
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div class="tab-pane active" id="login" role="tabpanel" aria-labelledby="login-tab" tabindex="0"><app-login></app-login></div>
+    <div class="tab-pane" id="signup" role="tabpanel" aria-labelledby="signup-tab" tabindex="0"><app-signup></app-signup></div>
+    <div class="tab-pane" id="forgottenaccount" role="tabpanel" aria-labelledby="forgottenaccount-tab" tabindex="0"><app-forgottenaccount></app-forgottenaccount></div>
+    <div class="tab-pane" id="info" role="tabpanel" aria-labelledby="info-tab" tabindex="0"><app-info></app-info></div>
+    <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab" tabindex="0"><app-settings></app-settings></div>
+  </div>

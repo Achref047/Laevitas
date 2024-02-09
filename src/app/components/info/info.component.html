@@ -1,0 +1,133 @@
+
+<div class="container-fluid">
+<div id="borderedAccordion">
+    <div class="accordion accordion-bordered-y accordion-stacked">
+        <header id="borderedAccordion-heading-1" class="accordion-header" aria-expanded="true"
+            aria-controls="borderedAccordion-1" data-toggle="collapse" data-target="#borderedAccordion-1">
+
+            <h5 class="mb-0">This is the initialization page where you enter your Laevitas APi Token.</h5>
+            <i class="accordion-control gd-angle-down icon-text ml-auto"></i>
+        </header>
+
+        <div id="borderedAccordion-1" class="collapse show" aria-labelledby="borderedAccordion-heading-1"
+            data-parent="#borderedAccordion">
+            <div class="accordion-body">
+                The API Token is necessary for the other pages to function and once submitted it can only be changed if
+                you Reset the session.
+            </div>
+            <div class="alert alert-primary alert-left-bordered border-primary alert-dismissible d-flex align-items-center p-md-4 mb-2 fade show"
+                role="alert">
+                <i class="gd-info-alt icon-text text-primary-darker mr-2"></i>
+                <p class="mb-0">
+                    If the token is not valid or it was not entered. Data Fetching and Trading signals inputs pages
+                    won't be active.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="accordion accordion-bordered-y accordion-stacked">
+        <header id="borderedAccordion-heading-1" class="accordion-header" aria-expanded="true"
+            aria-controls="borderedAccordion-1" data-toggle="collapse" data-target="#borderedAccordion-1">
+
+            <h5 class="mb-0">Data Fetching</h5>
+            <i class="accordion-control gd-angle-down icon-text ml-auto"></i>
+        </header>
+
+        <div id="borderedAccordion-1" class="collapse show" aria-labelledby="borderedAccordion-heading-1"
+            data-parent="#borderedAccordion">
+            <div class="accordion-body">
+
+                <p>On this page you'll select the Metrics you want to fetch.</p>
+                <p> The select options dropdown will allow you to select multiple metrics.</p>
+                <p>After submitting the Options to Fetch a new forum will appear.</p>
+                <p> The forum contains the necessary parameters to select in order to create a query.</p>
+                <p>These parameters are linked to the selected options.</p>
+                <p>After selecting the parameters and pressing Fetch Data the request will be submitted and the data
+                    will be fetched.</p>
+                <p>This process is necessary for the Next Pages to function.
+                <p> After having acquired data, you can press Fetch Again to reset both backtesting and fetched results.
+                </p>
+
+            </div>
+            <div class="alert alert-primary alert-left-bordered border-primary alert-dismissible d-flex align-items-center p-md-4 mb-2 fade show"
+                role="alert">
+                <i class="gd-info-alt icon-text text-primary-darker mr-2"></i>
+                <p class="mb-0">
+                    This process is necessary for the Next Pages to function
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion accordion-bordered-y accordion-stacked">
+        <header id="borderedAccordion-heading-1" class="accordion-header" aria-expanded="true"
+            aria-controls="borderedAccordion-1" data-toggle="collapse" data-target="#borderedAccordion-1">
+
+            <h5 class="mb-0">Trading Signals Input</h5>
+            <i class="accordion-control gd-angle-down icon-text ml-auto"></i>
+        </header>
+
+        <div id="borderedAccordion-1" class="collapse show" aria-labelledby="borderedAccordion-heading-1"
+            data-parent="#borderedAccordion">
+            <div class="accordion-body">
+                <p> On this page, you can create your own strategy.</p>
+
+                <p>Select the datapoints and technical indicators you wish to use and specify their parameters</p>
+
+                <p>For each strategy you can specify the buy and sell signals</p>
+
+                <p>IF the entries are all valid : The submission of these parameters will create a new button Show
+                    Calculated Data</p>
+
+                <p>If the chosen rules were submitted: Backtesting, Used technical indicators Charts and Bot
+                    configuration panels will become available</p>
+
+                <p>You can control the entry point, position size and capital for the Backtester</p>
+
+                <p>You can view the used technical indicators</p>
+
+                <p>You can configurate the bot's parameters, from this tab you can reset and try another strategy or
+                    confirm</p>
+
+                <p>The confirmation is validated when the send button is pressed and the information needed to lunch the
+                    trade bot will be submitted</p>
+            </div>
+            <div class="alert alert-primary alert-left-bordered border-primary alert-dismissible d-flex align-items-center p-md-4 mb-2 fade show"
+                role="alert">
+                <i class="gd-info-alt icon-text text-primary-darker mr-2"></i>
+                <p class="mb-0">
+                    The send button is unlocked only after pressing Confirm and providing Bitfinex Tokens
+                </p>
+            </div>
+            <div class="alert alert-success alert-left-bordered border-success alert-dismissible d-flex align-items-center p-md-4 mb-2 fade show"
+                role="alert">
+                <i class="gd-info-alt icon-text text-primary-darker mr-2"></i>
+                <p class="mb-0">
+                    If sent successfully, a success message will be shown and the data is safely transmitted to lunch a
+                    trading bot.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="accordion accordion-bordered-y accordion-stacked">
+        <header id="borderedAccordion-heading-1" class="accordion-header" aria-expanded="true"
+            aria-controls="borderedAccordion-1" data-toggle="collapse" data-target="#borderedAccordion-1">
+
+            <h5 class="mb-0">Bitfinex</h5>
+            <i class="accordion-control gd-angle-down icon-text ml-auto"></i>
+        </header>
+
+        <div id="borderedAccordion-1" class="collapse show" aria-labelledby="borderedAccordion-heading-1"
+            data-parent="#borderedAccordion">
+            <div class="accordion-body">
+                <p> On the sidebar, you need to fill in your Bitfinex API Credentials : KEY & SECRET then submit</p>
+
+                <p>If they are valid, A dropdown will appear on the main page where you can choose which info you want to display</p>
+
+                <p>After Submitting, a Table containing the requested info will appear.</p>
+            </div>
+           
+        </div>
+    </div>
+</div>
+</div>
